@@ -1,6 +1,10 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
-        RomanToString romanToString = new RomanToString();
-        System.out.println(romanToString.romanToString("XX"));
+        LongestCommonPrefix longestCommonPrefix = new LongestCommonPrefix();
+        String[] strs = {"a","a"};
+        System.out.println(longestCommonPrefix.longestCommonPrefix(strs));
+
     }
 }
